@@ -32,7 +32,7 @@
     END IF
 
 
-3. Laudry Day
+3. Laundry Day
 
     SET "cloth" to "0"
     SET "limit" to "20"
