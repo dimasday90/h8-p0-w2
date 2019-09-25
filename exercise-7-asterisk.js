@@ -23,12 +23,12 @@ for(i= 0; i < 5; i ++) {
 3. // Barisan tanggan bintang dengan nested loop
 
 console.log('barisan tangga bintang')
-var pagar = '*';
+var bintang = '*';
 var tampungan2 = '';
 
 for(i= 0; i < 5; i ++) {
     for(i = 0; i < 5; i ++) {
-        tampungan2 = tampungan2 + pagar;
+        tampungan2 = tampungan2 + bintang;
         console.log(tampungan2);
     }
 }
