@@ -1,22 +1,14 @@
 function xo(str) {
-    str.split('')
     var countX = 0;
     var countO = 0;
-    for (var i of str) {
-        if(i == 'x') {
-            countX = countX + 1;
+    for (var i = 0; i < str.length; i++) {
+        if(str[i] === 'x') {
+            countX = countX + 1
+        } else {
+            countO = countO + 1
         }
     }
-    for (var j of str) {
-        if(j == 'o') {
-            countO = countO + 1;
-        }
-    }
-    if(countX == countO) {
-        return true;
-    } else {
-        return false;
-    }
+    return countX === countO
 }
 
 console.log(xo('xoxoxo'));
