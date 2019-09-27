@@ -1,5 +1,9 @@
 function balikKata(kata) {
-    return kata.split('').reverse().join('');
+    var tampungan = '';
+    for(i = kata.length - 1; i >= 0; i --) {
+        tampungan = tampungan + kata[i];
+    }
+    return tampungan;
 }
 
 console.log(balikKata('Hello World and Coders'));
