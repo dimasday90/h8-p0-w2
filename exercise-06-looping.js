@@ -43,26 +43,26 @@ while(deret < 100) {
 console.log('KELIPATAN 3');
 for(var deret = 1; deret <= 100; deret += 2) {
     if(deret % 3 == 0) {
-        console.log(deret + ' KELIPATAN ' + deret);
+        console.log(deret + ' KELIPATAN 3');
     } else {
-        console.log('NOTHING TO DISPLAY');
+        console.log('');
     }
 }
 
 console.log('KELIPATAN 6');
 for(var deret = 1; deret <= 100; deret += 5) {
     if(deret % 6 == 0) {
-        console.log(deret + ' KELIPATAN ' + deret);
+        console.log(deret + ' KELIPATAN 6');
     } else {
-        console.log('NOTHING TO DISPLAY');
+        console.log('');
     }
 }
 
 console.log('KELIPATAN 10')
 for(var deret = 1; deret <= 100; deret += 9) {
     if(deret % 10 == 0) {
-        console.log(deret + ' KELIPATAN ' + deret);
+        console.log(deret + ' KELIPATAN 10');
     } else {
-        console.log('NOTHING TO DISPLAY');
+        console.log('');
     }
 }
